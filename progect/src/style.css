@@ -1,0 +1,55 @@
+body {
+ background:url(https://tvkinoradio.ru/upload/images/Article/49/52/50/4952507a84bd0cc76c1856d3024f6b0d.jpg) no-repeat;
+  padding-right: 10%;
+	background-size: cover;
+
+}
+span.text  {
+  background-image: url(https://goo.gl/tKyzHt), /* верхняя часть рамки */ 
+  url(https://goo.gl/SUKymM), /* нижняя часть рамки */
+  url(https://goo.gl/Km7HVV); /* середина рамки */ 
+  display: block;
+  background-position: center top, /* позиция верха рамки */ center bottom, /* позиция низа рамки */ center top; /* позиция середины рамки */ 
+  background-repeat: no-repeat, /* верх рамки не повторяется */ no-repeat, /* низ рамки не повторяется */ repeat-y; /* середина рамки повторяется по вертикали */ 
+  background-size: contain; /* здесь для всех фонов одинаковое значение */ 
+  height: auto; /* высота блока зависит от количества содержимого */ 
+  width: auto; /* ширина блока фиксированная */ 
+  padding: 120px; /* внутренние отступы блока */ 
+  width: 50%;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: -3%;
+  box-sizing: border-box;
+  opacity: 0.8;
+  
+
+}
+.1{
+	text-decoration: inherit;
+}
+.u{
+	text-decoration: underline;
+}
+.s{
+	text-decoration:line-through;
+}
+.b{
+	font-weight: bold;
+}
+  div {
+	background-color: rgba(255,255,255,0.80);
+	background-size: 100%;
+	backface-visibility: hidden;
+	box-sizing: inherit;
+    display: table;
+  
+	position: fixed;
+	float: left;
+	  
+
+}
+p {
+	
+}
