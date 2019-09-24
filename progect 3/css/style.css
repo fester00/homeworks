@@ -1,0 +1,21 @@
+h1{
+  /* Style for "Почему нуж" */
+padding-top: 70px;
+padding-bottom: 82px;
+color: #333333;
+font-family: Tahoma;
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+}
+p {
+  /* Style for "Первое  пр" */
+  margin-top: 21px;
+width: 122px;
+height: 34px;
+color: #333333;
+font-family: Tahoma;
+font-size: 16px;
+font-weight: 700;
+}
